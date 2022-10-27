@@ -40,11 +40,11 @@ function App() {
   //   }
   // }, [pathname, dispatch]);
   // 테스트할때는 주석처리
-  // useLayoutEffect(() => {
-  //   if (!isAuth) {
-  //     navigate("/enter", { replace: true });
-  //   }
-  // }, [isAuth, pathname]);
+  useLayoutEffect(() => {
+    if (!isAuth) {
+      navigate("/enter", { replace: true });
+    }
+  }, [isAuth, pathname]);
   return (
     <Layout>
       <Routes>
