@@ -3,11 +3,11 @@ import { useNavigate } from "react-router-dom";
 import Meeting from "../components/Meeting";
 const Main = ({ router }) => {
   const meetings = useSelector((state) => state.meetings.data);
-  // 테스트용
-  // const navigate = useNavigate();
-  // const handleClick = () => {
-  //   navigate("meeting/make");
-  // };
+  //테스트용
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate("meeting/make");
+  };
   // const meetings = [
   //   {
   //     meetingId: 1,

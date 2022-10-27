@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
     <>
       {isDev ? (
         <>
-          <div className="h-20 fixed top-40 border  ">
+          {/* <div className="h-20 fixed top-40 border  ">
             <div>임시로 만든 부분입니다</div>
             <div className="flex gap-4 flex-col border border-red-900">
               <button onClick={() => navigate(PATHS.INDEX)}>main</button>
@@ -42,7 +42,7 @@ const Layout = ({ children }) => {
                 make meeting
               </button>
             </div>
-          </div>
+          </div> */}
         </>
       ) : null}
       <div className="bg-slate-50 w-full h-[150vh]">
